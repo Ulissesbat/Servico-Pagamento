@@ -35,7 +35,7 @@ public class Program {
 		
 		contractService.processContract(obj, n);
 		
-		System.out.println("Parcelas: ");
+		System.out.println("------------Parcelas: ----------------");
 		
 		for (Installment installment : obj.getInstallments() ) {
 			System.out.println(installment);
